@@ -6,6 +6,16 @@
     <version>1.0.0</version>
     <packaging>aar</packaging>
     <dependencies>
+        <dependency>
+            <groupId>com.artifex.mupdf</groupId>
+            <artifactId>fitz</artifactId>
+            <version>1.27.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.MCT-LIB</groupId>
+            <artifactId>ApachePoiAndroidPublic</artifactId>
+            <version>1.0.1</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
